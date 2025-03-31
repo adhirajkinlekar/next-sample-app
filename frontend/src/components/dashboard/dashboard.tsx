@@ -30,7 +30,7 @@ export default function Dashboard() {
 
         <div className="card-body text-center mt-5">
           <h1 className="display-10 text-success">{message}</h1>
-          <p className="lead">You have successfully logged in. Feel free to logout whenever you wish.</p>
+          <p className="lead">Welcome to the application.</p>
            
           <button
             className="btn btn-primary mt-3"
