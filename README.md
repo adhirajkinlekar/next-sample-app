@@ -1,7 +1,3 @@
-Ah, I see! You want to provide two approaches based on whether the user has Docker installed or not. Here’s an updated version of your instructions:
-
----
-
 # Project Setup Instructions
 
 ## Running the Project
