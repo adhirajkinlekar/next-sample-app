@@ -76,4 +76,7 @@ npm run dev
 
 - The **Backend API** should be running on `http://localhost:3001`
 - The **Frontend** should be available on `http://localhost:5173`
- 
+
+### 4. Troubleshooting
+
+Package-related issues (e.g., module not found, shared library errors): If you encounter any issues related to missing packages or module errors, try deleting node_modules and reinstalling dependencies:
