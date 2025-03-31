@@ -1,0 +1,17 @@
+services:
+
+  mongo:
+    container_name: mongo-db
+    image: mongo:latest
+    restart: always
+    ports:
+      - "27017:27017" 
+    volumes:
+      - mongo_data:/data/db  
+
+volumes:
+  mongo_data: 
+ 
+  
+
+  
