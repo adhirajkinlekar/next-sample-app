@@ -1,7 +1,8 @@
 import axios from 'axios'; 
-
+ 
+console.log({VITE_NEST_API_BASE: import.meta.env.VITE_NEST_API_BASE})
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:3001',  
+  baseURL: import.meta.env.VITE_NEST_API_BASE 
 });
 
 // Intercept request to attach token
